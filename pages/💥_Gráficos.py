@@ -12,7 +12,7 @@ st.title("Ternarys")
 
 
 # Importar el diccionario desde el archivo binario
-with open('deploy\distribucion_multinomial_grafico.pickle', 'rb') as handle:
+with open('deploy/distribucion_multinomial_grafico.pickle', 'rb') as handle:
     distribucion_multinomial_grafico = pickle.load(handle)
 
 
